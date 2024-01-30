@@ -19,5 +19,8 @@ class Ebook(Libro):
         return self._tamaño
     
     def __str__(self):
-        return super().__str__() + f"""Formato: {self._formato} - 
-                                       Tamaño:  {self._tamaño}"""
+        return super().__str__() + f"""
+        Formato: {self._formato}
+        Tamaño:  {self._tamaño}
+
+"""
